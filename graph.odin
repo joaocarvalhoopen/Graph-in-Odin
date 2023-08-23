@@ -365,7 +365,7 @@ print_complement :: proc (g : ^Graph_t, p : int ) {
             insert_edge( cg, i, k, 1 )
         }
     }
-    differentlinks( cg, g )
+    different_links( cg, g )
     //print_graph(cg,"complement");  //free_graph(cg); 
 }
 
