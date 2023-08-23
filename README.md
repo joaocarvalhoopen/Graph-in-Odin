@@ -179,7 +179,7 @@ connected : bool = is_connected( my_g1 )
 ```
 
 
-### 13. Check the number of connected components.
+### 14. Check the number of connected components.
 This will print the number of connected components in the graph
 ``` odin
 num_of_conn_comp :: proc (g : ^Graph_t )
@@ -190,7 +190,7 @@ num_of_conn_comp( my_g1 )
 ```
 
 
-### 13. Copy a graph.
+### 15. Copy a graph.
 This will copy the give graph and will return the pointer to the newly created graph 
 ``` odin
 copy_graph :: proc (g : Graph_t) -> ^Graph_t
@@ -201,7 +201,7 @@ my_g2 = copy_graph( my_g1 )
 ```
 
 
-### 14. free a graph.
+### 16. free a graph.
 Free's the memory used by the graph.
 ``` odin
 free_graph :: proc ( g : ^Graph_t )
@@ -211,5 +211,5 @@ Example :
 free_graph( my_g1 )
 ```
 
-## Best regards,
+## Best regards
 Joao Carvalho
