@@ -1,6 +1,6 @@
 # Graph in Odin
 
-<strong>This is a code of a port of graph originally implemented in C to Odin. Adjacency lists have been used to make the graph</strong>
+<strong>This is a code of a port of graph originally implemented in C to Odin. Adjacency lists have been used to make the graph.</strong> <br>
 There is a good section on templates in the queue.odin file, several different template ways of doing the same thing, it was the fruit of a really good discussion with the discord members of the Odin forum, my thanks go to them.
 
 ## Original C code for this port to Odin
