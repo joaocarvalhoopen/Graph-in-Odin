@@ -29,8 +29,19 @@ my_g1 = new( Graph_t )
 defer free( my_g1 )
 
 ```
-Then you can use following method to implement the graph as you wish.
-
+Then you can use following functions or procedures to implement the graph as you wish.
+Odin is not a OO - Object Oriented language, but you can use it to write code that is 
+object orient style of coding, like you can use to write in other low level languages 
+like C. You can make a struct for each class of every object you need. With a function
+constructor (that returns a pointer to the object instantiated) and a function destructor
+(that clean up every thing), and each other function (like method receiving the this or 
+self parameter, but with the name of the struct ), receiving, as it's first argument 
+the pointer to the object instantiated. <br>
+But Odin, has many niceties, it's easy to put inheritance in place and have the
+equivalent to virtual methods of C Plus Plus, but with functions. <br>
+It's a Data Oriented language and not a Object Oriented language, but it's a very fine 
+and clean one. Really a little perl in a see of complex languages, but simple doesn't 
+means that is isn't a very powerful language.   
 
 ### 1. Initialize the graph.
 This will initialize the graph. There are two parameters which you should pass.
