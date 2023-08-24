@@ -29,7 +29,7 @@ my_g1 = new( Graph_t )
 defer free( my_g1 )
 
 ```
-They you can use following method to implement the graph as you wish.
+Then you can use following method to implement the graph as you wish.
 
 
 ### 1. Initialize the graph.
